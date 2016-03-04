@@ -1,0 +1,21 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Please download and unzip the datas in a directory called\'a0\'bbdata\'a0\'bb at the root of the main directory.\
+\
+From there, the function available are the followings:\
+\
+- extract_test() and extract_train(): reconstruct all the data from the X file and gather them with the activities and subject numbers\
+\
+- join_test_train(): use the previous functions to gather the datas from the test and the train experiences in a table\
+\
+- filter_mean_std(): use the previous function to select in a table only the informations about means or std of the basic variables, together with the subject number and activity\
+\
+- names_activities (): change the activity number from the last function resulting table to the actual activity name, into a new table\
+\
+- tidy_names(): rename the columns from last table to match the UpperCamelCase naming convention\
+\
+- average_bygroup(): create a tidy data set from the previous function resulting table, with the means of all the means and std of the measures, grouped by subject and activity name}
